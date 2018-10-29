@@ -1,5 +1,5 @@
 # samp-drp
-A client/server plugin for Discord Rich Presence. 
+A client/server Discord Rich Presence plugin for SA-MP. 
 
 Versions supported: 0.3.7-R1, 0.3.7-R2 & 0.3.DL-R1
 
