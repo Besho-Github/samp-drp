@@ -1,0 +1,120 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Dependencies">
+      <UniqueIdentifier>{39077022-080e-40f8-9a5a-77eebf25584d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\discord">
+      <UniqueIdentifier>{bb44345e-bb6e-4e2f-890f-e91a8cdfb512}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Dependencies\raknet">
+      <UniqueIdentifier>{94b2b975-baad-45db-b44b-fdfe78843149}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="dllmain.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\include\discord\discord_rpc.h">
+      <Filter>Dependencies\discord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\include\discord\discord_register.h">
+      <Filter>Dependencies\discord</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\include\raknet\BitStream.h">
+      <Filter>Dependencies\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\include\raknet\DS_HuffmanEncodingTree.h">
+      <Filter>Dependencies\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\include\raknet\DS_HuffmanEncodingTreeNode.h">
+      <Filter>Dependencies\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\include\raknet\DS_LinkedList.h">
+      <Filter>Dependencies\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\include\raknet\DS_List.h">
+      <Filter>Dependencies\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\include\raknet\DS_Map.h">
+      <Filter>Dependencies\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\include\raknet\DS_OrderedList.h">
+      <Filter>Dependencies\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\include\raknet\DS_Queue.h">
+      <Filter>Dependencies\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\include\raknet\Export.h">
+      <Filter>Dependencies\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\include\raknet\NetworkTypes.h">
+      <Filter>Dependencies\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\include\raknet\PacketPriority.h">
+      <Filter>Dependencies\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\include\raknet\RakClientInterface.h">
+      <Filter>Dependencies\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\include\raknet\RakNetDefines.h">
+      <Filter>Dependencies\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\include\raknet\RakNetStatistics.h">
+      <Filter>Dependencies\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\dependencies\include\raknet\StringCompressor.h">
+      <Filter>Dependencies\raknet</Filter>
+    </ClInclude>
+    <ClInclude Include="network.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="sampquery.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="addresses.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\include\raknet\BitStream.cpp">
+      <Filter>Dependencies\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\include\raknet\DS_HuffmanEncodingTree.cpp">
+      <Filter>Dependencies\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="..\dependencies\include\raknet\StringCompressor.cpp">
+      <Filter>Dependencies\raknet</Filter>
+    </ClCompile>
+    <ClCompile Include="network.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="sampquery.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="addresses.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
