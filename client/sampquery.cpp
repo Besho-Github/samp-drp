@@ -1,6 +1,6 @@
 #include "sampquery.h"
 
-SampQuery::SampQuery(std::string ip, const short port, const int timeout)
+SampQuery::SampQuery(const std::string ip, const short port, const int timeout)
 {
 	WSAData data;
 
@@ -26,7 +26,7 @@ SampQuery::SampQuery(std::string ip, const short port, const int timeout)
 			struct addrinfo hints, *result, *p;
 			struct sockaddr_in *h;
 
-			memset(&hints, 0, sizeof(hints));
+			hints = { 0 };
 
 			hints.ai_family = AF_INET;
 			hints.ai_socktype = SOCK_STREAM;
