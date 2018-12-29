@@ -32,7 +32,7 @@ private:
 	SOCKET samp_socket;
 
 public:
-	SampQuery(std::string ip, const short port, const int timeout);
+	SampQuery(const std::string ip, const short port, const int timeout);
 	~SampQuery();
 
 	struct ServerInformation
